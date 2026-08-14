@@ -46,6 +46,15 @@ export const projects: Project[] = [
   },
   // toy
   {
+    title: '拼豆图纸生成器',
+    description: '把照片变成真正能照着拼的 MARD 拼豆图纸',
+    preview: 'https://raw.githubusercontent.com/kuizuo/pin-dou/main/public/readme/home.png',
+    website: 'https://pindou.kuizuo.me',
+    source: 'https://github.com/kuizuo/pin-dou',
+    tags: ['opensource', 'design', 'product'],
+    type: 'toy',
+  },
+  {
     title: 'chaoxing-sign',
     description: '🌟 超星学习通在线签到，摆脱客户端繁琐的签到流程，让签到不再是你的烦恼',
     preview: '/img/project/chaoxing-sign.png',
@@ -78,15 +87,6 @@ export const projects: Project[] = [
     preview: '/img/project/link-maker.png',
     website: 'https://link-maker.deno.dev',
     source: 'https://github.com/kuizuo/link-maker',
-    tags: ['opensource'],
-    type: 'toy',
-  },
-  {
-    title: 'Nuxt-Naive-Admin',
-    description: '🎁 一站式管理系统，融合 Nuxt、Naive UI 和 Supabase',
-    preview: '/img/project/nuxt-naive-admin.png',
-    website: 'https://nuxt-naive-admin.vercel.app',
-    source: 'https://github.com/kuizuo/nuxt-naive-admin',
     tags: ['opensource'],
     type: 'toy',
   },
