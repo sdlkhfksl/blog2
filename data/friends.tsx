@@ -89,6 +89,12 @@ export const Friends: Friend[] = [
     website: 'https://linexic.top',
     avatar: '/img/friend/linexic.png',
   },
+  {
+    title: 'lailai\'s Home',
+    description: 'Student & Developer',
+    website: 'https://lailai.one',
+    avatar: 'https://lailai.one/img/logo.png',
+  },
 ]
 
 export type Friend = {
